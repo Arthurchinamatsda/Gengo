@@ -1,6 +1,6 @@
 import { Routes } from '@angular/router';
-import { Home } from './components/home/home';
+import { TelaLoginRegister } from './components/tela-login-register/tela-login-register';
 
 export const routes: Routes = [
-    {path:"",component:Home}
+    {path:"",component:TelaLoginRegister}
 ];
